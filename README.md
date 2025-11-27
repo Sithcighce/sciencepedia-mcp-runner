@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ```powershell
 python test_mcp_client_v2_concurrent.py
 ```
-- 主程序（会对 `第四卷.md` 执行，默认的并发与策略设置在脚本中）：
+- 主程序：
 ```powershell
 python main_generate_from_md_v2.py
 ```
