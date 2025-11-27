@@ -1,0 +1,33 @@
+# Ignore environment files which may contain secrets
+.env
+
+# Ignore editor and python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Ignore VSCode settings if personal
+.vscode/
+
+# Ignore data directories and archives as requested (numeric-starting files/dirs and volumes)
+# All files or directories beginning with a digit
+[0-9]*/
+[0-9]*
+# All files/dirs starting with '第' and containing '卷' (volume-related files/dirs)
+第*卷*
+归档/
+参考文档/
+scripts/
+
+# Optional: ignore OS files
+.DS_Store
+Thumbs.db
+
+有效题目统计*
+*.csv
+.vscode/
+*.json
+*.log
+

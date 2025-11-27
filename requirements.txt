@@ -1,0 +1,5 @@
+# Core runtime dependencies for SciencePedia
+# These are required to run the bulk generation scripts
+python-dotenv>=0.21.0    # optional: load .env files; fallback allowed
+aiohttp>=3.8.0           # used by async HTTP clients / libraries; kept for compatibility
+bohr-agent-sdk>=0.1.115  # MCP client SDK used in utils/mcp_client_v2.py (may be private)
